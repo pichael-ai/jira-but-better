@@ -140,7 +140,7 @@ function App() {
         {/* The Board */}
         <div className="flex-1 overflow-x-auto p-8 pt-4">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 h-full items-start">
-            <Column title="To Do" count={data.todo.length} issues={data.todo} />
+            <Column title="Aldo Delgado" count={data.todo.length} issues={data.todo} />
             <Column title="In Progress" count={data.inProgress.length} issues={data.inProgress} />
             <Column title="Done" count={data.done.length} issues={data.done} />
             <div className="hidden lg:flex flex-col min-w-[280px]">
