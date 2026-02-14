@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-jira-blue: #0052cc;
+  --color-jira-bg: #f4f5f7;
+  --color-jira-sidebar: #0747a6;
+}
+
+body {
+  @apply bg-[#f4f5f7] text-[#172b4d] font-sans antialiased;
+}
